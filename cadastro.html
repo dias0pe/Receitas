@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Formulário de cadastro</title>    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <div class="collapse navbar-collapse justify-content-inicial" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="home.html" id="home-menu">HOME</a>
+                        <a class="nav-item nav-link" href="receitas.html" id="recipes-menu">RECEITAS</a>
+                        <a class="nav-item nav-link" href="cadastro.html" id="register-menu">CADASTRO</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Efetue seu cadastro</h1>
+    </div>
+    
+    <form class="container pt-1" action="https://formsubmit.co/202304548641@alunos.estacio.br" method="post" enctype="text/plain">  
+        <div class="row">
+        <div class="col-9">
+            <label class="form" for="nome"> Nome </label>
+            <input type="text" class="form-control" required> 
+        </div>
+        <div class="col-9">
+            <label class="form" for="email"> E-mail </label>
+            <input type="text" class="form-control" required> 
+        </div>
+        <div class="col-md-4">
+            <label class="form" for="cep" > CEP </label>
+            <input type="text" class="form-control" required>
+        </div>
+        <div class="col-9">
+            <label class="form" for="rua"> Rua </label>
+            <input type="text" class="form-control" required> 
+        </div>
+        <div class="col-md-5">
+            <label class="form" for="n"> Nº </label>
+            <input type="text" class="form-control" required> 
+        </div>
+        <div class="col-md-4 .offset-md-4">
+            <label class="form" for="complemento"> Complemento </label>
+            <input type="text" class="form-control" required> 
+        </div>
+        <div class="col-md-8">
+            <label class="form" for="cidade"> Cidade </label>
+            <input type="text" class="form-control" required> 
+        </div>
+        <div class="col-md-1">
+            <label class="form" for="uf"> UF </label>
+            <input type="text" class="form-control" required> 
+        </div>
+
+        <div class="col-md-1">
+            <br> <br>
+            <button type="submit" class="btn btn-secondary">Cadastrar</button>
+        </div>
+
+    </div>    
+    </form>
+
+
+    <footer">
+        <div class="footer">
+            <p>&copy;Jurema 2023</p>
+        </div>           
+    </footer>
+
+</body>
+</html>
